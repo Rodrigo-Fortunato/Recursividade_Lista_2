@@ -1,4 +1,4 @@
-package controller;
+package Ex01.controller.controller;
 
 public class DivisaoController {
 	public DivisaoController() {
@@ -6,7 +6,7 @@ public class DivisaoController {
 	}
 
 	public int div(int dividendo, int divisor) {
-		// Condição de parada
+		// Condiï¿½ï¿½o de parada
 		if (dividendo < divisor) {
 			return 0;
 		} else {

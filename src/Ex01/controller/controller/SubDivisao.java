@@ -1,6 +1,6 @@
-package controller;
-//Criar uma função recursiva que receba o dividendo e o divisor de uma operação de divisão e, por
-//subtrações, exiba o resto da divisão.
+package Ex01.controller.controller;
+//Criar uma funï¿½ï¿½o recursiva que receba o dividendo e o divisor de uma operaï¿½ï¿½o de divisï¿½o e, por
+//subtraï¿½ï¿½es, exiba o resto da divisï¿½o.
 public class SubDivisao {
 	public SubDivisao() {
 		super();

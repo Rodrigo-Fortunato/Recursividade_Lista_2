@@ -1,4 +1,4 @@
-package controller;
+package Ex01.controller.controller;
 
 public class MultiplicaAB {
 	public MultiplicaAB() {
