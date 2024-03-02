@@ -1,6 +1,6 @@
-package view;
+package Ex01.view;
 
-import Ex01.controller.controller.DivisaoController;
+import Ex01.controller.DivisaoController;
 
 public class Principal {
 	public static void main(String[] args) {

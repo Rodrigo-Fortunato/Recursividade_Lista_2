@@ -1,6 +1,6 @@
-package view;
+package Ex01.view;
 
-import Ex01.controller.controller.MultiplicaAB;
+import Ex01.controller.MultiplicaAB;
 public class Main {
 
 	public static void main(String[] args) {
