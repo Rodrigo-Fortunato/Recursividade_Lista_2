@@ -1,6 +1,6 @@
-package ex01.view;
+package ex02.view;
 
-import ex01.controller.SubDivisao;
+import ex02.controller.SubDivisao;
 
 public class MainSubDivisao {
 
