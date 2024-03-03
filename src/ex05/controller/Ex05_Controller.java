@@ -5,12 +5,16 @@ public class Ex05_Controller {
     public Ex05_Controller(){
         super();
     }
+    //Função que verifica o MDC(máximo divisor comum).
     public int Mdc(int x, int y){
-        if (x == y){
+
+        if (x == y){ //MDC(x,x) = x
             return x;
-        }else if (x> y){
+
+        }else if (x> y){ //MDC(x, y) = MDC(x − y, y),
             return Mdc(x-y,y);
-        }else{
+
+        }else{ //MDC(x,y) = MDC(y,x)
             return Mdc(y,x);
         }
     }

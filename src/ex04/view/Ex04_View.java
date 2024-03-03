@@ -7,12 +7,12 @@ import java.util.Scanner;
 public class Ex04_View {
     public static void main(String[] args) {
         int num =0;
-        int fatoralDuplo =0;
+        int fatorialDuplo;
         boolean impar = false;
         Scanner scan = new Scanner(System.in);
         Ex04_Controller fat = new Ex04_Controller();
 
-        //(A entrada deve ser validada fora da função recursiva).
+        //Recebe e verifica se o número digitando pelo usuario é impar,
         while (!impar){
             System.out.println("Digite um número Impar: ");
             num = scan.nextInt();
@@ -24,8 +24,9 @@ public class Ex04_View {
             }
 
         }
-        fatoralDuplo = fat.DuploFat(num);
-        System.out.println(fatoralDuplo);
+
+        fatorialDuplo = fat.DuploFat(num);
+        System.out.println(fatorialDuplo);
     }
 }
 
