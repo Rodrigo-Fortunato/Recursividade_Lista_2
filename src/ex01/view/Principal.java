@@ -1,13 +1,13 @@
 package ex01.view;
 
-import ex01.controller.DivisaoController;
+import ex02.controller.DivisaoController;
 
 public class Principal {
 	public static void main(String[] args) {
 		DivisaoController dc = new DivisaoController();
 		int dividendo = 0;
 		int divisor = 0;
-		int div = dc.div(dividendo, divisor);
+		int div = dc.dividir(dividendo, divisor);
 		System.out.println(div);
 	}
 }
